@@ -37,7 +37,7 @@ pytest tests/
 - 4) Написана функция/класс predict (вызов оформлен как утилита командной строки), которая примет на вход артефакт/ы от обучения, тестовую выборку (без меток) и запишет предикт по заданному пути, инструкция по вызову записана в readme (3 балла) <span style="color:#f54275;font-weight: bold">|</span> <span style="color:#4245f5;font-weight: bold">+3 балла</span>.
 - 5) Проект имеет модульную структуру (2 балла) <span style="color:#f54275;font-weight: bold">|</span> <span style="color:#4245f5;font-weight: bold">+2 балла </span>.  
 - 6) Использованы логгеры (2 балла) <span style="color:#f54275;font-weight: bold">|</span> <span style="color:#4245f5;font-weight: bold">+2 балла </span>.
-- 7) Написаны тесты на отдельные модули и на прогон обучения и predict (3 балла) <span style="color:#f54275;font-weight: bold">|</span> <span style="color:#4245f5;font-weight: bold"> +1 балл </span>.
+- 7) Написаны тесты на отдельные модули и на прогон обучения и predict (3 балла) <span style="color:#f54275;font-weight: bold">|</span> <span style="color:#4245f5;font-weight: bold"> +0.5 балл </span>.
 - 8) Для тестов генерируются синтетические данные, приближенные к реальным (2 балла)
     * можно посмотреть на библиотеки https://faker.readthedocs.io/en/, https://feature-forge.readthedocs.io/en/latest/  
     * можно просто руками посоздавать данных, собственноручно написанными функциями
@@ -50,4 +50,4 @@ pytest tests/
 
 - доп*. Используется hydra  (https://hydra.cc/docs/intro/) (3 балла - доп баллы) <span style="color:#f54275;font-weight: bold">|</span> <span style="color:#4245f5;font-weight: bold">+3 балла</span>.
 
-Итого: 28.5 баллов
+Итого: 28 баллов
