@@ -1,0 +1,22 @@
+data_path: data/raw/heart.csv
+output_model_path: models/model_logreg.pkl
+logging_config: configs/logging_config.yaml
+splitting_params:
+  val_size: 0.25
+  test_size: 0.1
+  random_state: 42
+feature_params:
+  categorical_features:
+  - sex
+  - cp
+  - fbs
+  - restecg
+  - slope
+  - thal
+  target_column: target
+  features_to_drop: []
+model_type: sklearn.linear_model.LogisticRegression
+model_params:
+  C: 0.1
+  max_iter: 1000
+random_state: 42

@@ -1,0 +1,20 @@
+hydra:
+    run:
+        dir: .
+
+data_path: data/raw/heart.csv
+model_path: models/model.pkl
+transformer_path: models/transformer.pkl
+output_path: data/predictions/predictions.csv
+output_column: target
+logging_config: ml_project/configs/logging_config.yaml
+feature_parameters:
+    categorical_columns: 
+        - sex
+        - cp
+        - fbs
+        - restecg
+        - slope
+        - thal
+    features_to_drop: 
+        - target
